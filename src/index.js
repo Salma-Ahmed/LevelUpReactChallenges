@@ -5,8 +5,8 @@ import ReactDOM from "react-dom";
 // import Counter from "./Ch-3";
 // import Tabs from "./Ch-4";
 // import Clock from "./Ch-5/Clock";
-// import Todos from "./Ch-6";
-import UncontrolledForm from "./Forms";
+import Todos from "./Ch-6";
+// import UncontrolledForm from "./Forms";
 // import ControlledForm from "./Forms";
 // import Modal, { ModalParent } from "./Ch-7";
 
@@ -17,14 +17,14 @@ const App = () => (
   <>
     {/* <ModalParent /> */}
     {/* <ControlledForm /> */}
-    <UncontrolledForm />
-    {/* <Todos
+    {/* <UncontrolledForm /> */}
+    <Todos
       myToDoList={[
         { text: "Have breakfast", complete: false },
         { text: "Go to work", complete: false },
         { text: "Have lunch", complete: false }
       ]}
-    /> */}
+    />
     {/* <Clock />
     <Tabs titles={["Home", "About", "Gallery"]} activeIndex={0} />
     <Counter min={3} max={10} intialCount={10} />
