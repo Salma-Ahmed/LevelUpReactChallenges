@@ -20,8 +20,8 @@ class Counter extends Component {
   }
   capValue = value => {
     const { min, max } = this.props;
-    // if (value <= min) return min;
-    // if (value >= max) return max;
+    if (value <= min) return min;
+    if (value >= max) return max;
     return value;
   };
   decrease = () => {
@@ -43,7 +43,7 @@ class Counter extends Component {
   };
   reset = () => {
     this.setState({
-      count: this.state.count
+      count: this.props.intialCount
     });
   };
   render() {
