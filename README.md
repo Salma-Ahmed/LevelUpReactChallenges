@@ -64,7 +64,7 @@ Create a tabs component that renders a set of buttons. The component accepts tab
 
 # Challenge 5
 
-Create a timer component that has two modes: Clock and  Stopwatch. The component allows switching between the two modes using tabs. In the Clock mode, time is displayed in this format: HH:MM:SS am and is updated each second. In the Stopwatch mode, the timer shows hours, minutes, seconds and milli-seconds and allows resetting and taking time snapshots (laps) using buttons.
+Create a timer component that has two modes: Clock and Stopwatch. The component allows switching between the two modes using tabs. In the Clock mode, time is displayed in this format: HH:MM:SS am and is updated each second. In the Stopwatch mode, the timer shows hours, minutes, seconds and milli-seconds and allows resetting and taking time snapshots (laps) using buttons.
 
 ```
 <div className="ex-5">
@@ -100,7 +100,7 @@ Create a timer component that has two modes: Clock and  Stopwatch. The component
 
 # Challenge 6
 
-Create a Todo component that displays a list of todos.  An item can be checked / unchecked by clicking it. An item may be deleted by clicking an x button on it. New items may be added to the list by typing in a text input and pressing Enter. Checked items may be cleared by clicking a 'Clear complete' button. If the user starts typing, the input field should auto-focus.
+Create a Todo component that displays a list of todos. An item can be checked / unchecked by clicking it. An item may be deleted by clicking an x button on it. New items may be added to the list by typing in a text input and pressing Enter. Checked items may be cleared by clicking a 'Clear complete' button. If the user starts typing, the input field should auto-focus.
 
 ```
 <div className="ex-6">
@@ -132,7 +132,7 @@ Create a Todo component that displays a list of todos.  An item can be checked /
 
 # Challenge 7
 
-Create a Modal component that accepts content  passed as children. The modal may be closed using an overlay (option passed as a prop). The modal may display a close button (option passed as a prop). The component must support nested modals.
+Create a Modal component that accepts content passed as children. The modal may be closed using an overlay (option passed as a prop). The modal may display a close button (option passed as a prop). The component must support nested modals.
 
 ```
 <div className="ex-7">

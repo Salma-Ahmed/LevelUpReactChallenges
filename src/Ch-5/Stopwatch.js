@@ -1,17 +1,14 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 class Stopwatch extends Component {
-  static propTypes = {
-  };
+  static propTypes = {};
 
-  static defaultProps = {
-  };
-  
+  static defaultProps = {};
+  state = {};
+
   render() {
-    return (
-      null
-    );
+    return <h1>{}</h1>;
   }
 }
 
