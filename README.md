@@ -1,3 +1,5 @@
+# This repo has 8 branches 
+
 # Challenge 1
 
 Create a simple component that renders a bell icon. The component should display notifications count as a badge over the icon. If the count is zero, the count badge should be hidden. If the count is more than 9, then the string '9+' should be displayed instead of the actual count.
@@ -62,41 +64,15 @@ Create a tabs component that renders a set of buttons. The component accepts tab
 </ul>
 ```
 
+
 # Challenge 5
-
-Create a timer component that has two modes: Clock and Stopwatch. The component allows switching between the two modes using tabs. In the Clock mode, time is displayed in this format: HH:MM:SS am and is updated each second. In the Stopwatch mode, the timer shows hours, minutes, seconds and milli-seconds and allows resetting and taking time snapshots (laps) using buttons.
-
-```
-<div className="ex-5">
-  <Tabs />
-  <Clock />
-  <Stopwatch />
-</div>
-```
-
 ### Clock
 
 ```
 <h1>{time}</h1>
 ```
 
-### Stopwatch
 
-```
-<div>
-  <h1>{time}</h1>
-
-  <button>Start</button>
-  <button>Stop</button>
-  <button>Lap</button>
-  <button>Reset</button>
-
-  <ol reversed>
-    <li>{snapshot}</li>
-    ...
-  </ol>
-</div>
-```
 
 # Challenge 6
 
@@ -130,33 +106,3 @@ Create a Todo component that displays a list of todos. An item can be checked / 
 </div>
 ```
 
-# Challenge 7
-
-Create a Modal component that accepts content passed as children. The modal may be closed using an overlay (option passed as a prop). The modal may display a close button (option passed as a prop). The component must support nested modals.
-
-```
-<div className="ex-7">
-  <div className="content">
-    ...
-    <button>
-      <i className="fa fa-times" />
-    </button>
-  </div>
-
-  <div className="overlay" />
-</div>
-```
-
-### Parent
-
-```
-<div>
-  <button>Open Modal</button>
-  <Modal>
-    <h3>Hello Modal!</h3>
-    <p>
-      This is a small modal.
-    </p>
-  </Modal>
-</div>
-```
